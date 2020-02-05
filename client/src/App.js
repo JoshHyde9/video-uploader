@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/v1/posts";
+const API_URL = "https://obscure-refuge-53058.herokuapp.com/api/v1/posts";
 
 export default class App extends Component {
   constructor(props) {
